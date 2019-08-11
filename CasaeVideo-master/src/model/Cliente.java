@@ -6,6 +6,9 @@ public class Cliente {
 	private String cpf;
 	private String endereco;
 	private String referenciaBancaria;
+	private boolean compraRealizada;
+	
+	
 	
 	public String getNome() {
 		return nome;
@@ -30,6 +33,14 @@ public class Cliente {
 	}
 	public void setReferenciaBancaria(String referenciaBancaria) {
 		this.referenciaBancaria = referenciaBancaria;
+	}
+	public boolean isCompraRealizada() {
+		
+		return compraRealizada;
+	}
+	
+	public void setCompraRealizada(boolean compraRealizada) {
+		this.compraRealizada = compraRealizada;
 	}
 	
 
